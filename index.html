@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <section id="about"></section>
+    <!-- header row with logo -->
+    <div class="header">
+        <div id="tentacles-div">
+            <img id="tentacles" src="assets/tentacles.png">
+            <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#our-games">Our Games</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search for a game...">
+                <div id="search-results">
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- background info about company -->
+    <h2>Welcome to Sea Monster!</h2>
+    
+    <div id="description-container">
+        <p>The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
+    </div>
+
+    <!-- top games & other interesting stats -->
+    <h2>Stats</h2>
+    <div class="stats-container">
+        <div class="stats-card">
+            <h3>Individual Contributions</h3>
+            <p id="num-contributions">
+            </p>
+        </div>
+        <div class="stats-card">
+            <h3>Total Raised</h3>
+            <p id="total-raised">
+            </p>
+        </div>
+        <div class="stats-card">
+            <h3>Total Number of Games</h3>
+            <p id="num-games">
+            </p>
+        </div>
+    </div>
+
+    <section id="our-games"></section>
+
+    <div class="stats-container" id="top-games">
+        <div class="stats-card" id="first-game">
+            <h3>🥇 Top Funded Game</h3>
+        </div>
+        <div class="stats-card" id="second-game">
+            <h3>🥈 Runner Up</h3>
+        </div>
+    </div>
+
+    <!-- list of games funded by Sea Monster -->
+    <h2>Our Games</h2>
+    <p>Check out each of our games below!</p>
+    <div id="button-container">
+        <button class="games-btn" id="unfunded-btn">Show Unfunded Only</button>
+        <button class="games-btn" id="funded-btn">Show Funded Only</button>
+        <button class="games-btn" id="all-btn">Show All Games</button>
+    </div>
+    <div id="games-container">
+    </div>
+    
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

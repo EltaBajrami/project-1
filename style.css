@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Cabin';
+    background-color: #758190;
+    margin: 0;
+}
+
+#tentacles {
+    width: 50px;
+    float: left;
+}
+
+.header {
+    display: flex;
+    background-color: lightblue;
+    padding: 1%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#tentacles-div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+.stats-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+.stats-card {
+    background-color: #a8b0bc;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+#num-contributions, #total-raised, #num-games {
+    font-size: 50px;
+}
+
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+.game-card {
+    background-color: #FFFFFF;
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+.game-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+    transform: scale(1.025);
+}
+
+.games-btn {
+    transition: 0.5s;
+}
+.games-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#button-container {
+    text-align: center;
+}
+
+button {
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+}
+
+/*nav bar styling section*/
+nav{
+    background-color: lightblue;
+    color: #000;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: auto 3%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 50px ;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+color: white;
+}
+
+/*search bar*/
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    margin: 0 3%;
+    width: auto;
+    height: 30px;
+    position: relative;
+}
+
+#search {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: initial;
+    width: 100%;
+    font-size: 16px;
+}
+
+#search:focus{
+    outline: 5px solid #a8b0bc;
+}
+
+#search-results {
+    position: absolute;
+    top: 120%;
+    width: 100%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.the-result {
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.the-result:hover {
+    text-shadow: 0 0 16px black;
+}
