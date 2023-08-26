@@ -25,10 +25,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![] (https://github.com/EltaBajrami/project-1/blob/main/web102prework-preview.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LICEcap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -37,10 +37,12 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
-
+Overall it was a fun experience. Some of the challenges that I encountered were:
+* [ ] The data manipulation and responsive interfaces were challenging when using filter to create efficient filtering logic and addEventListener to manage event listeners.
+* [ ] The search bar placed top-right of the website took a lot of trial and error to display the right output and I learned some new things while building it.
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2023 Elta Bajrami
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
